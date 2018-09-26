@@ -10,7 +10,7 @@ function mountLoginScreen() {
     container.classList.add('login-screen');
     container.innerHTML = `
       <div class="logo-container">
-        <img width="150" height="150" src="../image/logo.png" />
+        <img width="150" height="150" src="./image/logo.png" />
       </div>
   
       <div class="middle-section">
