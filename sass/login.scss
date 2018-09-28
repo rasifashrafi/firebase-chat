@@ -4,10 +4,10 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgb(255, 167, 4),red,purple,blue,green,white);
-  }
-  
-  .auth-icon {
+    background: linear-gradient(180deg,#595a6a, #710101, #330973, #1a1c2c);
+
+}
+ .auth-icon {
     font-size: 50px;
     color: #93d9c5;
   }
@@ -36,11 +36,13 @@
   }
   
   .buttons-container div:nth-child(1) {
-    background-color: #93d9c5;
+    background-image: linear-gradient(#710101, #330973);
+    color: white;
   }
   
   .buttons-container div:nth-child(2) {
-    background-color: #E91E63;
+    background-image: linear-gradient(#710101, #000000);
+    color: white;
   }
   
   .middle-section {

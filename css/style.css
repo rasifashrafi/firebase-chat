@@ -7,15 +7,22 @@ body {
   margin: 0;
 }
 
+.loading-screen, .login-screen, .sign-up-screen, .chat-screen {
+  border-radius: 10px;
+}
+
 .loading-screen {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(black, #4141a1, purple, white);
+  border-radius: 10px;
 }
 
 .loading-screen div {
-  height: 50px;
+  height: 20px;
   width: 15px;
   background-color: black;
   margin: 5px;
@@ -38,9 +45,11 @@ body {
 @keyframes bar {
   from {
     height: 50px;
+    background-image: linear-gradient(black, white, red);
   }
   to {
     height: 150px;
+    background-image: linear-gradient(red, black, white);
   }
 }
 .login-screen {
@@ -49,7 +58,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(#ffa704, red, purple, blue, green, white);
+  background: linear-gradient(180deg, #595a6a, #710101, #330973, #1a1c2c);
 }
 
 .auth-icon {
@@ -81,11 +90,13 @@ body {
 }
 
 .buttons-container div:nth-child(1) {
-  background-color: #93d9c5;
+  background-image: linear-gradient(#710101, #330973);
+  color: white;
 }
 
 .buttons-container div:nth-child(2) {
-  background-color: #E91E63;
+  background-image: linear-gradient(#710101, #000000);
+  color: white;
 }
 
 .middle-section {
@@ -329,4 +340,4 @@ body {
   src: url(../fonts/Montserrat/Montserrat-Black.ttf);
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
