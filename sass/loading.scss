@@ -1,19 +1,19 @@
 .loading-screen {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(black,rgb(65, 65, 161),purple,white);
   border-radius: 10px;
+  color: white;
+  font-size: 50PX;
 }
 
 .loading-screen div {
-  height: 20px;
-  width: 15px;
-  background-color: black;
-  margin: 5px;
-  border-radius: 10px;
+  // height: 20px;
+  // width: 15px;
+  // background-color: black;
+  // margin: 5px;
+  // border-radius: 10px;
   animation: bar 800ms ease infinite alternate-reverse; 
 }
 
@@ -28,15 +28,27 @@
 .loading-screen div:nth-child(4) {
   animation-delay: 600ms;
 }
+.loading-screen div:nth-child(5) {
+  animation-delay: 800ms;
+}
+.loading-screen div:nth-child(6) {
+  animation-delay: 1000ms;
+}
+.loading-screen div:nth-child(7) {
+  animation-delay: 1200ms;
+}
+.loading-screen div:nth-child(8) {
+  animation-delay: 1400ms;
+}
 
 @keyframes bar {
   from {
-    height: 50px;
+    // height: 50px;
     background-image: linear-gradient(black,white,red);
   }
 
   to {
-    height: 150px;
-    background-image: linear-gradient(red,black,white);
+    // height: 150px;
+    background-image: linear-gradient(red,black,);
   }
 }

@@ -2,10 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(180deg,#595a6a, #710101, #330973, #1a1c2c);
-
+    background: linear-gradient(90deg,rgb(87, 82, 82),#595a6a, #710101, #330973, #1a1c2c);
 }
  .auth-icon {
     font-size: 50px;
@@ -41,8 +38,15 @@
   }
   
   .buttons-container div:nth-child(2) {
-    background-image: linear-gradient(#710101, #000000);
+    background: linear-gradient(#710101, #000000);
     color: white;
+  }
+  .buttons-container div:nth-child(1):hover {
+    background-image: radial-gradient(#710101, #330973,rgba(100, 172, 231, 0.411),white);
+    color: white;
+  }
+  .buttons-container div:nth-child(2):hover{
+    background: radial-gradient(black,rgb(216, 7, 7),rgb(243, 173, 126),white);
   }
   
   .middle-section {

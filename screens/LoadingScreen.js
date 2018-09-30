@@ -12,11 +12,14 @@ function mountLoadingScreen() {
     container.id = 'loading-screen';
     container.classList.add('loading-screen');
     container.innerHTML = `
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    `;
+      <div>L</div>
+      <div>O</div>
+      <div>A</div>
+      <div>D</div>
+      <div>I</div>
+      <div>N</div>
+      <div>G</div>
+      `;
   
     return container;
   }
